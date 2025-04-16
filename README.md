@@ -1,88 +1,88 @@
-🛒 #Análisis Comparativo de Tiendas para Decisión Estratégica
-Este proyecto tiene como objetivo ayudar al Sr. Juan a tomar una decisión informada sobre cuál de sus tiendas debe vender para invertir en un nuevo negocio. A través de técnicas de análisis de datos con Python, se evaluaron distintos aspectos clave de rendimiento de cuatro tiendas, utilizando Google Colab como entorno de trabajo.
+# 🛒 Análisis Comparativo de Tiendas para Decisión Estratégica
 
-📊 Objetivo del Proyecto
-Analizar y comparar el desempeño de cuatro tiendas con base en los siguientes criterios:
+Este proyecto tiene como objetivo ayudar al Sr. Juan, propietario de cuatro tiendas de e-commerce, a determinar cuál de sus tiendas debe vender para invertir en un nuevo negocio. Se realiza un análisis completo utilizando Python y bibliotecas de visualización, basándonos en criterios como ventas, calificaciones de clientes, categorías populares, costos de envío y distribución geográfica.
 
-Facturación total por tienda
+---
 
-Categorías de productos más populares
+## 📊 Contenido del Análisis
 
-Calificación promedio de clientes
+El proyecto incluye los siguientes puntos clave:
 
-Productos más y menos vendidos
+- **Ingresos totales por tienda**  
+- **Categorías de productos más populares**  
+- **Promedio de calificación de clientes por tienda**  
+- **Productos más y menos vendidos por tienda**  
+- **Costo promedio de envío por tienda**  
+- **Análisis geográfico basado en coordenadas (lat, lon)**  
 
-Costo promedio de envío
+Se utilizaron gráficos de barras, pastel y líneas para ilustrar comparaciones y tendencias, así como mapas de calor y dispersión para el análisis geográfico.
 
-Distribución geográfica de ventas
+---
 
-⚙️ Tecnologías y Librerías Utilizadas
-Python 3
+## 🧰 Tecnologías y Herramientas
 
-Google Colab
+- Python 3
+- Pandas
+- Matplotlib
+- Seaborn
+- Plotly
+- Google Colab
+- GitHub
 
-Pandas
+---
 
-Matplotlib
+## 🚀 Instrucciones para Ejecutar
 
-Seaborn
+1. Clona el repositorio:
 
-Plotly
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
 
-Folium
+## 📍 Estructura del Proyecto
 
-🗂️ Estructura del Proyecto
-bash
-Copiar
-Editar
+![image](https://github.com/user-attachments/assets/d4946a30-34bd-4867-bd4b-0c9167b9f4b4)
 
-📁 /project-root
-│
-├── tienda_1.csv
-├── tienda_2.csv
-├── tienda_3.csv
-├── tienda_4.csv
-├── analisis_tiendas.ipynb
-└── README.md
+📦 analisis-tiendas
+ ┣ 📄 README.md
+ ┣ 📄 analisis_tiendas.ipynb
+ ┣ 📂 datos
+ ┃ ┣ 📄 tienda_1.csv
+ ┃ ┣ 📄 tienda_2.csv
+ ┃ ┣ 📄 tienda_3.csv
+ ┃ ┗ 📄 tienda_4.csv
 
-🚀 Cómo ejecutar el proyecto
-Clona el repositorio:
+## 📈 Resultados Destacados
 
-bash
-Copiar
-Editar
-git clone https://github.com/tu-usuario/tu-repo.git
-Abre el archivo analisis_tiendas.ipynb en Google Colab o Jupyter Notebook.
+Tienda con mayores ingresos: Tienda 1
 
-Asegúrate de tener todas las dependencias instaladas:
+Tienda con calificaciones más altas: Tienda 3
 
-bash
-Copiar
-Editar
-pip install pandas matplotlib seaborn plotly folium
+Tienda con menor costo de envío: Tienda 4
 
-Ejecuta cada celda en orden para ver los resultados y visualizaciones.
+Tienda con productos del hogar más vendidos: Tienda 3
 
-📈 Resultados y Visualizaciones
+Mayor concentración de ventas por región: Identificada mediante mapas de calor y dispersión
 
-El análisis ofrece gráficos comparativos como:
+## 📝 Conclusión
 
-Gráficos de pastel de facturación por tienda
+Después del análisis integral, se recomienda que el Sr. Juan considere vender la Tienda 4, ya que presenta:
 
-Barras de categorías más populares
+El menor costo promedio de envío (lo que puede reflejar estrategias de precios agresivas, pero menores márgenes),
 
-Líneas de evolución de ventas
+Calificaciones promedio más bajas,
 
-Mapas de calor de distribución geográfica
+Productos con menor rotación en ciertas categorías,
 
-Además, se genera un informe final que concluye cuál tienda es la mejor opción para ser vendida, con base en datos objetivos.
+Y un rendimiento geográfico inferior comparado con las otras tiendas.
 
-📌 Conclusión
-Este proyecto proporciona una base sólida de análisis de datos aplicados al entorno comercial. La visualización clara de los resultados permite una mejor toma de decisiones estratégicas por parte del Sr. Juan.
+En cambio, Tienda 1 y Tienda 3 se consolidan como las más sólidas en ventas, reputación y rendimiento general.
 
-📬 Contacto
-Para más información o colaboración, puedes contactarme en:
+## 🤝 Colaboración
+Si deseas contribuir a mejorar este análisis, puedes hacer un fork del repositorio y enviar un pull request. ¡Toda ayuda es bienvenida!
 
-Nombre: Cesar Constantino
-LinkedIn: https://www.linkedin.com/in/cesarconstantino/
+## 📬 Contacto
+Autor: Cesar Constantino
+LinkedIn:  https://www.linkedin.com/in/cesarconstantino/
 Email: cesarconstantino@me.com
+
+
