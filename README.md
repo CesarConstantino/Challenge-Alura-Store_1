@@ -43,6 +43,7 @@ Editar
 ├── tienda_4.csv
 ├── analisis_tiendas.ipynb
 └── README.md
+
 🚀 Cómo ejecutar el proyecto
 Clona el repositorio:
 
